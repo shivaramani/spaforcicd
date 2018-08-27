@@ -24,3 +24,13 @@ phases:
 artifacts:
   files:
     - build/*
+    - build/static/*
+    - build/static/css/*
+    - build/static/js/*
+    #- build/index.html
+    #- build/service-worker.js
+    #- build/asset-manifest.json
+    #- static/css/main.dfc9c75c.css
+    #- static/css/main.dfc9c75c.css.map
+    #- static/js/main.af4c29a0.js
+    #- static/js/main.af4c29a0.js.map
