@@ -6,6 +6,8 @@ phases:
     commands:
       - echo Install any other dependencies 
       #- npm install 
+      - npm install react
+      - npm install superagent
   pre_build:
     commands:
       - echo Installing source NPM dependencies...
