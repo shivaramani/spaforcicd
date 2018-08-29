@@ -16,6 +16,7 @@ phases:
     commands:
       - echo Build 
       - npm run build
+      - cd build
   post_build:
     commands:
       - echo no post build activity
@@ -25,12 +26,12 @@ phases:
 artifacts:
   files:
     # build/*
-    - build/static/*
-    - build/static/css/*
-    - build/static/js/*
-    - build/index.html
-    - build/service-worker.js
-    - build/asset-manifest.json
+    - index.html
+    - service-worker.js
+    - asset-manifest.json
+    - static/*
+    - static/css/*
+    - static/js/*
     - static/css/main.dfc9c75c.css
     - static/css/main.dfc9c75c.css.map
     - static/js/main.af4c29a0.js
