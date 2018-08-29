@@ -18,19 +18,20 @@ phases:
       - npm run build
   post_build:
     commands:
-      - zip -r spaforcicd.zip build
+      - echo no post build activity
+      #- zip -r spaforcicd.zip build
 # Include only the files required for your application to run.
 # Do not use recursively include artifacts from node_modules directory as it will include unnecessary packages 
 artifacts:
   files:
-    - build/*
+    # build/*
     - build/static/*
     - build/static/css/*
     - build/static/js/*
-    #- build/index.html
-    #- build/service-worker.js
-    #- build/asset-manifest.json
-    #- static/css/main.dfc9c75c.css
-    #- static/css/main.dfc9c75c.css.map
-    #- static/js/main.af4c29a0.js
-    #- static/js/main.af4c29a0.js.map
+    - build/index.html
+    - build/service-worker.js
+    - build/asset-manifest.json
+    - static/css/main.dfc9c75c.css
+    - static/css/main.dfc9c75c.css.map
+    - static/js/main.af4c29a0.js
+    - static/js/main.af4c29a0.js.map
