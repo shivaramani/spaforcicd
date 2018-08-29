@@ -26,13 +26,13 @@ phases:
 artifacts:
   files:
     # build/*
-    - index.html
-    - service-worker.js
-    - asset-manifest.json
-    - static/*
-    - static/css/*
-    - static/js/*
-    - static/css/main.dfc9c75c.css
-    - static/css/main.dfc9c75c.css.map
-    - static/js/main.af4c29a0.js
-    - static/js/main.af4c29a0.js.map
+    - build/index.html
+    - build/service-worker.js
+    - build/asset-manifest.json
+    - build/static/*
+    - build/static/css/*
+    - build/static/js/*
+    - build/static/css/main.dfc9c75c.css
+    - build/static/css/main.dfc9c75c.css.map
+    - build/static/js/main.af4c29a0.js
+    - build/static/js/main.af4c29a0.js.map
